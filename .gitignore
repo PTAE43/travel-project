@@ -1,0 +1,18 @@
+# Node / build
+node_modules/
+dist/
+
+# Java / Maven / IDE
+target/
+.idea/
+*.iml
+.project
+.classpath
+.settings/
+
+# ENV ทุกโปรเจ็กต์
+**/.env
+**/.env.*
+# Local Spring configs (กันซ้ำอีกชั้น)
+**/application-local.properties
+**/application-*.yml
